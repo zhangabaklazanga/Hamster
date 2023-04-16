@@ -1,0 +1,63 @@
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  background: #30A8E6;
+  height: 50px;
+  border-top:1px solid #Fff;
+}
+.a1 {
+  text-decoration: none; 
+  /*убираем подчеркивание текста ссылок*/
+  background:#30A8E6; /*добавляем фон к пункту меню*/
+  color:#000000; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px;
+display: block; 
+border-right: 1px solid #Fff; /*добавляем бордюр справа*/
+border-left: 1px solid #Fff;
+width: 394px;
+text-align: center;
+font-weight: 800;
+
+-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+}
+
+li {
+float:left; /*Размещаем список горизонтально для реализации меню*/
+/*Добавляем отступ у пунктов меню*/
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+  background-color: #b5def3;
+}
+.m{
+  margin-left: 15px;
+ font-family: 'Oswald', sans-serif;;
+}
+h1{
+  color: #2500f7;
+}
+body{
+  background-color: #30A8E6;;
+}
+footer{
+  padding: 20px;
+}
+.hamster{
+  margin-top: 20px;
+  
+  height: 390px;
+  display: flex;
+}
+.info{
+  width: 800px;
+  font-weight: 800;
+  color: #1900ff;
+  margin-left: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
